@@ -1,4 +1,4 @@
-# Home Price Analysis King County, Washington
+# Home Prices Analysis King County, Washington
 ### By: Wayne Harrison, Ely Lin, Brooke Smyth
 ## Introduction
 The Bank of Seattle is going through a major tech transformation and would like to have a predictive model of housing
@@ -23,8 +23,7 @@ describe the different characteristics of the houses in King County, such as squ
 view, etc.
 ## Modelling
 For this project, we conducted several linear and multiple linear regressions to determine which features of homes had the
-highest impact on the sale price of the home. For each regression, we looked at the R2 value, error measurements, multicoll
-inearity of features, and other metrics which reflected the quality of our regression. 
+highest impact on the sale price of the home. For each regression, we looked at the R2 value, error measurements, multicollinearity of features, and other metrics which reflected the quality of our regression. 
 ## Regression Results
 The model which yielded the best regression results was a multiple linear regression model which contained various features,
 of which the most impactful were distance from Bellevue (a high-demand living area close to Seattle), grade of home (quality of
@@ -33,7 +32,7 @@ is about $184,000 off from predicting the true sale price of a home, on average.
 ## Conclusions
 __Recommendations:__ The specifics of how the top home features impact sale price are as follows:
 - Controlling for all other features, for every mile away from Bellevue that a house is the price decreases by 3.4% on average.
-- Keeping our other features constant, for every increase of 100 square feet of living area, the price increases by 1.5%.
+- Keeping all other features constant, for every increase of 100 square feet of living area, the price increases by 1.5%.
 - Accounting for all other features, a one unit increase in grade results in a price increase of 16.462746%.
 - On average, our model is off by 189 thousand dollars for our training data and 168 thousand dollars for our testing data.
 The model can help mortgage agents to decide whether the house as a collateral is valuable enough for resale if heaven forbid 
