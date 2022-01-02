@@ -18,7 +18,7 @@ __Assumptions:__
 - The better the condition of a house is, the more valuable it will be.
 ## Data Understanding
 For this analysis, we will use a csv file which contains data about the features and sale prices of homes in King County.
-As we looked through the data, we discovered that the dataset contains 215,597 records with 21 different features, which 
+As we looked through the data, we discovered that the dataset contains 21,597 records with 21 different features, which 
 describe the different characteristics of the houses in King County, such as square footage, whether or not there is a good
 view, etc.
 ## Modelling
